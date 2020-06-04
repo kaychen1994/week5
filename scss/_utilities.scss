@@ -1,0 +1,53 @@
+// margin
+.mb-18{
+    margin-bottom: 18px;
+}
+.mb-29{
+    margin-bottom: 29px;
+}
+.mb-44{
+    margin-bottom: 44px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-46{
+    margin-right: 46px;
+}
+.ml-26{
+    margin-left: 26px;
+}
+
+
+// padding
+.p-12{
+    padding: 12px;
+}
+
+//font
+
+.fz-12{
+    font-size: 12px;
+}
+.fz-14{
+    font-size: 14px;
+}
+.fz-20{
+    font-size: 20px;
+}
+.fz-24{
+    font-size: 24px;
+}
+
+.highlight-primary{
+    background-color: $primary;
+    color: $secondary;
+}
+
+.bg-inline{
+    display: inline;
+}
+
+hr {
+    color: $primary;
+}

@@ -1,0 +1,21 @@
+.pagenHover{
+    color: black;
+    &:hover{
+        background-color: $secondary;
+        color: white;
+    }
+}
+.border-secondary{
+    border: 1px solid $secondary;
+}
+.verification{
+    width: 100%;
+    height: 51px;
+}
+.infoImg{
+    width: 141px;
+    height: 141px;
+}
+.userList:hover{
+    background-color: $primary;
+}

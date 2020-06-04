@@ -1,0 +1,17 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "variables"; // 複製一份 variable 來覆蓋
+@import "base";
+@import "utilities";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// components
+@import "components/headImg";
+
+// layout
+@import "layout";
+
+// pages
+
+@import "pages/assignment";
+@import "pages/admin";

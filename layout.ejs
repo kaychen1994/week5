@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap d-flex">
+    <div class="sidebar bg-primary p-5 d-flex flex-column justify-content-between">
+      <div>
+        <!-- logo -->
+        <h1 class="mb-5">
+          <a href="#">
+            <img src="assets/images/logo-ANSWER.svg" alt="">
+          </a>
+        </h1>
+        <!-- sidebar list -->
+        <ul class="list-unstyled">
+          <li class="mb-29 borderLeft">
+            <a href="#"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons  mr-3">
+                insert_chart
+              </span>
+              Dashboard
+            </a>
+          </li>
+          <li class="mb-29 borderLeft">
+            <a href="#"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons mr-3">
+                forum
+              </span>
+              Question
+            </a>
+          </li>
+          <li class="mb-29 borderLeft">
+            <a href="index.html"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons mr-3">
+                assignment
+              </span>
+              Assignment
+            </a>
+          </li>
+          <li class="mb-29 borderLeft">
+            <a href="#"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons mr-3">
+                video_library
+              </span>
+              Course
+            </a>
+          </li>
+          <li class="mb-29 borderLeft">
+            <a href="admin.html"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons mr-3">
+                supervisor_account
+              </span>
+              Admin
+            </a>
+          </li>
+          <li class="mb-29 borderLeft">
+            <a href="#"
+              class="text-secondary text-decoration-none text-reset font-weight-bold d-flex align-items-center">
+              <span class="material-icons mr-3">
+                settings
+              </span>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- user info-->
+      <div class="d-flex">
+        <img src="assets/images/andychen.jpeg" alt="" class="headImg mr-3">
+        <ul class=" list-unstyled">
+          <li class="font-weight-bold">Andy Chen</li>
+          <li class="userEmail">andy0401@mail.com</li>
+        </ul>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="content">
+      <%- contents %>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
